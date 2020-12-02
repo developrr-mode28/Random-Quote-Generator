@@ -1,0 +1,55 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(54, 87, 87, 0.75);
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+.name {
+  color: linen;
+  font-size: 60px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.quote {
+  border-radius: 15px;
+  background: rgba(250, 240, 230, 0.85);
+  padding: 5%;
+  font-size: 40px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+}
+
+.btn {
+  outline: none;
+  box-sizing: border-box;
+  line-height: 2vh;
+  padding: 1em 2.5%;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  background: darkorange;
+  color: rgba(0, 0, 0, 0.75);
+  transition: 2s ease-in-out;
+}
+
+.btn:hover {
+  background: lightblue;
+  cursor: pointer;
+}
+
+.caption {
+  position: relative;
+  font-size: 40px;
+  font-weight: lighter;
+  color: antiquewhite;
+}
